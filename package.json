@@ -1,0 +1,25 @@
+{
+  "name": "pnpm-bulk-migrator",
+  "version": "1.0.0",
+  "description": "A powerful CLI tool to recursively discover Node.js projects, migrate from npm/yarn to pnpm, and auto-commit & push to Git.",
+  "main": "migrate-to-pnpm.sh",
+  "bin": {
+    "pnpm-bulk-migrator": "./migrate-to-pnpm.sh"
+  },
+  "scripts": {
+    "test": "bash migrate-to-pnpm.sh --help"
+  },
+  "keywords": [
+    "pnpm",
+    "migration",
+    "bulk",
+    "git",
+    "storage",
+    "cli",
+    "disk-space",
+    "npm",
+    "yarn"
+  ],
+  "author": "shoppie70",
+  "license": "MIT"
+}
